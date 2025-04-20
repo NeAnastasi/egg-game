@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     );
 
-    window.location.href = "game.html";
+    window.location.href = "/egg-game/scripts/game.html";
   });
 
   // Функции
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="col">
         <div class="egg-card card h-100 ${isUnlocked ? "" : "locked"}" 
              data-id="${egg.id}">
-          <img src="${isUnlocked ? egg.image : "../img/locked.png"}" 
+          <img src="${isUnlocked ? egg.image : "/egg-game/img/locked.png"}" 
                class="egg-img card-img-top p-3" 
                alt="${isUnlocked ? egg.name : "Заблокировано"}">
           <div class="card-body">

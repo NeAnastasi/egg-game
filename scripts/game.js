@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Загрузка данных
   const playerEggData = JSON.parse(
     localStorage.getItem("selectedEgg") ||
-      '{"id":1,"image":"../img/darkEgg.png"}'
+      '{"id":1,"image":"/egg-game/img/darkEgg.png"}'
   );
   const unlockedEggs = JSON.parse(
     localStorage.getItem("unlockedEggs") || "[1,2]"

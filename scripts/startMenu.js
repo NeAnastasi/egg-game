@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("playerName", playerName);
     localStorage.setItem("opponentName", opponentName);
 
-    window.location.href = "game.html"; // Явное перенаправление
+    window.location.href = "/egg-game/scripts/game.html"; // Явное перенаправление
   });
 });

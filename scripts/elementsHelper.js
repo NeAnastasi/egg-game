@@ -23,10 +23,10 @@ function initNavbar() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link nav-protected" href="../pages/game.html">Играть</a>
+            <a class="nav-link nav-protected" href="/egg-game/pages/game.html">Играть</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-protected" href="../pages/choosingEgg.html">Выбор яйца</a>
+            <a class="nav-link nav-protected" href="/egg-game/pages/choosingEgg.html">Выбор яйца</a>
           </li>
         </ul>
       </div>
@@ -40,7 +40,7 @@ function initNavbar() {
     link.addEventListener("click", (event) => {
       if (!localStorage.getItem("playerName")) {
         event.preventDefault();
-        window.location.href = "../pages/startMenu.html";
+        window.location.href = "/egg-game/pages/startMenu.html";
       }
     });
   });
