@@ -1,3 +1,15 @@
+// Автокоррекция путей
+document.addEventListener("DOMContentLoaded", function () {
+  const basePath = "/egg-game";
+
+  // Исправляем все ссылки
+  document.querySelectorAll("a").forEach((a) => {
+    if (a.href.includes("github.io") && !a.href.includes(basePath)) {
+      a.href = a.href.replace("github.io", "github.io" + basePath);
+    }
+  });
+});
+
 function initNavbar() {
   const navbar = `
         <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
