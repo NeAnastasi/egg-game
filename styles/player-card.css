@@ -1,0 +1,12 @@
+body {
+  background-color: #fff9c4;
+  min-height: 100vh;
+}
+
+.player-card {
+  max-width: 500px;
+  margin: 2rem auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff9f9;
+}

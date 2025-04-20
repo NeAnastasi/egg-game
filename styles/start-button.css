@@ -1,0 +1,18 @@
+:root {
+  --egg-yellow: #fff9c4;
+  --egg-pink: #ffcdd2;
+}
+
+body {
+  background-color: var(--egg-yellow);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

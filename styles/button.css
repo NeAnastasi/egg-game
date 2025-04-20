@@ -1,0 +1,23 @@
+.egg-btn {
+  font-size: 2rem;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+  border: none;
+  box-shadow: 0 10px 20px rgba(255, 107, 107, 0.3);
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.egg-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(255, 107, 107, 0.4);
+}
+
+.egg-btn:active {
+  transform: translateY(0);
+}
+
+.btn-padding {
+    padding: 20px 40px;
+}

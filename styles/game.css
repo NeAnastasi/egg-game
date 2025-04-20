@@ -1,0 +1,51 @@
+body {
+  background-color: #fff9c4;
+  min-height: 100vh;
+}
+.battle-area {
+  min-height: 40vh;
+  position: relative;
+  background-color: #ffcdcd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.egg {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.5s;
+}
+#playerEgg {
+  left: 25%;
+  bottom: 20%;
+  background-image: var(--player-egg);
+}
+#enemyEgg {
+  right: 25%;
+  bottom: 20%;
+  background-image: var(--enemy-egg);
+  transform: scaleX(-1);
+}
+.btn-pink {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+.hit-animation {
+  animation: hit 0.3s ease;
+}
+@keyframes hit {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-50px) scale(1.1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
